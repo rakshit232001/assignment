@@ -65,6 +65,10 @@ This project uses a mix of **React State (`useState`) and Redux Toolkit (RTK)** 
 
 ---
 
+## **🎨 Demo**
+![Presentation1](https://github.com/user-attachments/assets/594fad88-3919-4d01-918c-d246ef1c2a80)
+
+---
 ## **🚀 Installation & Setup**
 1. Clone the repository:
    ```sh

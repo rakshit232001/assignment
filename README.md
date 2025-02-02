@@ -68,7 +68,7 @@ This project uses a mix of **React State (`useState`) and Redux Toolkit (RTK)** 
 ## **🚀 Installation & Setup**
 1. Clone the repository:
    ```sh
-   git clone <repo-url>
+   git clone [<repo-url>](https://github.com/rakshit232001/assignment.git)
    ```
 2. Navigate to the project folder:
    ```sh
@@ -90,17 +90,12 @@ This project uses a mix of **React State (`useState`) and Redux Toolkit (RTK)** 
 ✅ Ensured **data persistence** for Rich Text Editor using `localStorage`.
 ✅ Implemented **unsaved changes alert** in User Form.
 ✅ Used **React Spring for smooth UI animations**.
-✅ Learned **Redux Toolkit** for state management.
 
 ---
 
-## **📜 License**
-This project is open-source under the **MIT License**.
-
----
 
 ## **📞 Contact**
 For any queries, feel free to reach out!
 
-🔗 **LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)  
+🔗 **LinkedIn:** [Profile][(https://www.linkedin.com/in/rakshit-bhadoria/)]
 📧 **Email:** rakshitbhadoria57@gmail.com 

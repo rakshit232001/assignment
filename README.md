@@ -19,10 +19,6 @@ This project is a **React-based web application** that includes a **Counter Comp
   - Displays **user data** in a formatted text editor.
   - Supports **bold, italic, underline, and lists**.
   - **Data persistence** on refresh.
-
-- **(Optional) User Authentication & Dashboard** 🔒  
-  - **Google Sign-In & Private Routes**.
-  - **Dashboard Visualization** with **React Charts**.
   
 ---
 
@@ -37,10 +33,7 @@ This project is a **React-based web application** that includes a **Counter Comp
  ├── 📁 redux/
  │   ├── store.js         # Redux store configuration
  │   ├── userSlice.js     # Redux slice for user data state management
- │
- ├── 📁 pages/
- │   ├── HomePage.js      # Home Page
- │   ├── Dashboard.js     # Dashboard with charts & analytics
+ |   ├── counterSlice.js  # Redux slice for counter
  │
  ├── App.js               # Main application file
  ├── index.js             # React entry point
@@ -56,7 +49,7 @@ This project uses a mix of **React State (`useState`) and Redux Toolkit (RTK)** 
 | Feature          | State Management |
 |-----------------|-----------------|
 | Counter         | `useState` (local state) |
-| User Data Form  | `Redux Toolkit (RTK)` for global state |
+| User Data Form  | `useState` (local state) |
 | Rich Text Data  | `LocalStorage` for persistence |
 
 ### **🔹 Explanation**
@@ -66,20 +59,9 @@ This project uses a mix of **React State (`useState`) and Redux Toolkit (RTK)** 
 
 ---
 
-## **🔀 Routing (React Router)**
-The project uses **React Router** for navigation.
-```jsx
-<Routes>
-  <Route path="/" element={<HomePage />} />
-  <Route path="/dashboard" element={<Dashboard />} />
-</Routes>
-```
-
----
-
 ## **🎨 Animations & UI Framework**
 - **React Spring**: Used for smooth animations.
-- **Material UI / Chakra UI / Next UI**: Used for styling.
+- **Material UI**: Used for styling.
 
 ---
 
@@ -121,4 +103,4 @@ This project is open-source under the **MIT License**.
 For any queries, feel free to reach out!
 
 🔗 **LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)  
-📧 **Email:** your.email@example.com  
+📧 **Email:** rakshitbhadoria57@gmail.com 
